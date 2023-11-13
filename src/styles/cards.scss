@@ -1,0 +1,42 @@
+.display-data {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    column-gap: 25px;
+    width: 100%;
+    text-align: left;
+    p {
+        padding: 0;
+        margin: 0;
+    }
+    .user-card {
+        width: 100%;
+        display: grid;
+        column-gap: 7px;
+        padding: 7px;
+        grid-template-columns: 100px auto;
+        grid-template-rows: auto auto;
+        border-radius: 5px;
+        h3 {
+            margin: 0;
+            padding-bottom: 5px;
+            color: var(--secondary-font-color);
+        }
+        span {
+            grid-column: span 2;
+            text-align: right;
+            font-size: .7em;
+        }
+        &.golden {
+            background-color: var(--golden-user);
+        }
+        img {
+            border-radius: 5px;
+        }
+    }
+
+    .message-card {
+        span {
+            color: var(--secondary-font-color);
+        }
+    }
+}

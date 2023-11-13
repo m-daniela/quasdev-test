@@ -1,0 +1,26 @@
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    tr {
+        &:hover{
+            color: var(--highlight);
+            cursor: pointer;
+        }
+
+        &.selected{
+            color: var(--highlight);
+        }
+    }
+    td {
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid var(--highlight);
+    }
+    thead tr:hover {
+        color: unset;
+        cursor: auto;
+    }
+}
+
+

@@ -1,0 +1,37 @@
+@import "./styles/cards.scss";
+@import "./styles/table.scss";
+
+
+:root {
+  // --bg-color: #0c1011;
+  // --highlight: #27e937;
+  // --golden-user: #ffb71d69;
+  // --font-color: #ebf3ff;
+  // --secondary-font-color: #e82a6a;
+  --bg-color: #e4e9eb;
+  --highlight: #3600a9;
+  --golden-user: #ffb71d69;
+  --font-color: #0c1011;
+  --secondary-font-color: #211fc2;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--font-color);
+  background-color: var(--bg-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  color: var(--highlight);
+}
